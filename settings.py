@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +80,7 @@ DATABASES = {
         'NAME': "homework",
         'USER':"root",
         'PASSWORD':"network123456",
-        'HOST':"104.248.151.231",
+        'HOST':"139.59.192.114",
         'PORT': 3306
     }
 }
@@ -107,7 +106,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL="user.Users"
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -127,4 +125,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
