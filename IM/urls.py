@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/register', Register),
     path('users/login', Login),
-    path('users/search', Search)
+    path('users/search', Search),
+    path('websocket/', listenWebsocket_test)
 ]
